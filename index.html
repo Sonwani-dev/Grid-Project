@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap and Icon link -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <!-- End Bootstrap and Incon Link -->
+
+    <!-- Fonts Link -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- End Fonts Link -->
+
+    <!-- Custom CSS Link -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- End Custom CSS Link -->
+
+    <title>Property Ad</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading -->
+
+      <div class="heading">
+        <h1>Properties for Rent</h1>
+        <p>
+          Find the perfect place to call home. Browse now and make your move!
+        </p>
+      </div>
+
+      <!-- End Heading -->
+
+      <!-- Ad Grid -->
+
+      <div class="ad-cards-grid">
+        <div class="ad-card ad-card-1">
+          <h4>Modern Apartment in Downtown Oasis</h4>
+          <div class="img-slider">
+            <img src="images/card1-1.jpg" class="slide1 slide-1" alt="" />
+            <img src="images/card1-2.jpg" class="slide1 slide-2" alt="" />
+            <img src="images/card1-3.jpg" class="slide1 slide-3" alt="" />
+            <img src="images/card1-4.jpeg" class="slide1 slide-4" alt="" />
+            <div class="btn">
+              <button onclick="slide1()"></button>
+              <button onclick="slide2()"></button>
+              <button onclick="slide3()"></button>
+              <button onclick="slide4()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 2 BHK, 4000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 123 Main Street
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 15,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5665254
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Stylish and modern apartment with city views, open floor plan, and
+              convenient downtown location. Close to shops, restaurants.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-2">
+          <h4>Spacious Family Home with Garden</h4>
+          <div class="img-slider">
+            <img src="images/card2-1.jpg" class="slide2 slide-5" alt="" />
+            <img src="images/card2-2.jpg" class="slide2 slide-6" alt="" />
+            <img src="images/card2-3.webp" class="slide2 slide-7" alt="" />
+            <img src="images/card2-4.jpg" class="slide2 slide-8" alt="" />
+            <div class="btn">
+              <button onclick="slide5()"></button>
+              <button onclick="slide6()"></button>
+              <button onclick="slide7()"></button>
+              <button onclick="slide8()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 4 BHK, 3500 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 456 Oak Avenue
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 50,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 55232568
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Perfect family home with a large backyard, spacious rooms, and a
+              charming neighborhood. Close to schools and parks.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-3">
+          <h4>Luxury Penthouse with Panoramic Views</h4>
+          <div class="img-slider">
+            <img src="images/card3-1.jpeg" class="slide3 slide-9" alt="" />
+            <img src="images/card3-2.jpg" class="slide3 slide-10" alt="" />
+            <img src="images/card3-3.jpg" class="slide3 slide-11" alt="" />
+            <img src="images/card3-4.jpg" class="slide3 slide-12" alt="" />
+            <div class="btn">
+              <button onclick="slide9()"></button>
+              <button onclick="slide10()"></button>
+              <button onclick="slide11()"></button>
+              <button onclick="slide12()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 3BHK, 2000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 789 Sky Tower
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 30,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 22652325
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Experience luxury living in this penthouse with breathtaking
+              cityscape views, high-end finishes, and exclusive amenities.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-4">
+          <h4>Cozy Cottage by the Lake</h4>
+          <div class="img-slider">
+            <img src="images/card4-1.jpeg" class="slide4 slide-13" alt="" />
+            <img src="images/card4-2.webp" class="slide4 slide-14" alt="" />
+            <img src="images/card4-3.jpg" class="slide4 slide-15" alt="" />
+            <img src="images/card4-4.webp" class="slide4 slide16" alt="" />
+            <div class="btn">
+              <button onclick="slide13()"></button>
+              <button onclick="slide14()"></button>
+              <button onclick="slide15()"></button>
+              <button onclick="slide16()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 1 BHK, 2000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 101 Lakefront Drive
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 10,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5154789
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Quaint cottage by the lake, perfect for a peaceful retreat. Enjoy
+              nature from your doorstep and a cozy fireplace for chilly
+              evenings.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-5">
+          <h4>Chic Studio in Artsy Neighborhood</h4>
+          <div class="img-slider">
+            <img src="images/card5-1.jpg" class="slide5 slide-17" alt="" />
+            <img src="images/card5-2.jpg" class="slide5 slide-18" alt="" />
+            <img src="images/card5-3.jpeg" class="slide5 slide-19" alt="" />
+            <img src="images/card5-4.jpeg" class="slide5 slide-20" alt="" />
+            <div class="btn">
+              <button onclick="slide17()"></button>
+              <button onclick="slide18()"></button>
+              <button onclick="slide19()"></button>
+              <button onclick="slide20()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 2 BHK, 5000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 222 Gallery Street
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 20,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5125656
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Trendy studio apartment in an artistic neighborhood, walking
+              distance to galleries, cafes, and cultural events.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-6">
+          <h4>Suburban Townhouse with Modern Touches</h4>
+          <div class="img-slider">
+            <img src="images/card6-1.jpg" class="slide6 slide-21" alt="" />
+            <img src="images/card6-2.jpg" class="slide6 slide-22" alt="" />
+            <img src="images/card6-3.avif" class="slide6 slide-23" alt="" />
+            <img src="images/card6-4.jpeg" class="slide6 slide-24" alt="" />
+            <div class="btn">
+              <button onclick="slide21()"></button>
+              <button onclick="slide22()"></button>
+              <button onclick="slide23()"></button>
+              <button onclick="slide24()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 1 BHK, 2000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 333 Maple Lane
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 5,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 1222147
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Contemporary townhouse with a private backyard, modern kitchen,
+              and close proximity to schools and shopping.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-7">
+          <h4>Historic Brownstone in Old Town Charm</h4>
+          <div class="img-slider">
+            <img src="images/card7-1.jpg" class="slide7 slide-25" alt="" />
+            <img src="images/card7-2.jpeg" class="slide7 slide-26" alt="" />
+            <img src="images/card7-3.jpeg" class="slide7 slide-27" alt="" />
+            <img src="images/card7-4.jpeg" class="slide7 slide-28" alt="" />
+            <div class="btn">
+              <button onclick="slide25()"></button>
+              <button onclick="slide26()"></button>
+              <button onclick="slide27()"></button>
+              <button onclick="slide28()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 3 BHK, 10000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 444 Heritage Avenue
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 60,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 2232589
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Immerse yourself in history with this charming brownstone,
+              featuring classic architecture, spacious rooms.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-8">
+          <h4>Beachfront Condo with Ocean Views</h4>
+          <div class="img-slider">
+            <img src="images/card8-1.jpg" class="slide8 slide-29" alt="" />
+            <img src="images/card8-2.jpg" class="slide8 slide-30" alt="" />
+            <img src="images/card8-3.jpg" class="slide8 slide-31" alt="" />
+            <img src="images/card8-4.jpg" class="slide8 slide-32" alt="" />
+            <div class="btn">
+              <button onclick="slide29()"></button>
+              <button onclick="slide30()"></button>
+              <button onclick="slide31()"></button>
+              <button onclick="slide32()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 3 BHK, 8000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 555 Ocean Drive
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 25,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5121568
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Wake up to the sound of waves in this beachfront condo. Enjoy
+              stunning ocean views and a private balcony.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-9">
+          <h4>Elegant Mansion with Private Gardens</h4>
+          <div class="img-slider">
+            <img src="images/card9-1.jpeg" class="slide9 slide-33" alt="" />
+            <img src="images/card9-2.jpeg" class="slide9 slide-34" alt="" />
+            <img src="images/card9-3.jpg" class="slide9 slide-35" alt="" />
+            <img src="images/card9-4.jpg" class="slide9 slide-36" alt="" />
+            <div class="btn">
+              <button onclick="slide33()"></button>
+              <button onclick="slide34()"></button>
+              <button onclick="slide35()"></button>
+              <button onclick="slide36()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 1 BHK, 4000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 666 Grand Estate
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 5,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5123698
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              A grand estate with lush gardens, multiple living spaces, and
+              luxury amenities for an upscale lifestyle.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-10">
+          <h4>Sunny Duplex with Rooftop Terrace</h4>
+          <div class="img-slider">
+            <img src="images/card10-1.avif" class="slide10 slide-37" alt="" />
+            <img src="images/card10-2.avif" class="slide10 slide28" alt="" />
+            <img src="images/card10-3.avif" class="slide10 slide-39" alt="" />
+            <img src="images/card10-4.avif" class="slide10 slide-40" alt="" />
+            <div class="btn">
+              <button onclick="slide37()"></button>
+              <button onclick="slide38()"></button>
+              <button onclick="slide39()"></button>
+              <button onclick="slide40()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 2 BHK, 5000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 777 Sunbeam Street
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 10,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 4596325
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Bright and airy duplex with a rooftop terrace, perfect for outdoor
+              entertaining and enjoying.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-11">
+          <h4>Mountain Retreat Cabin Hall</h4>
+          <div class="img-slider">
+            <img src="images/card11-1.jpeg" class="slide11 slide-41" alt="" />
+            <img src="images/card11-2.jpeg" class="slide11 slide-42" alt="" />
+            <img src="images/card11-3.jpg" class="slide11 slide-43" alt="" />
+            <img src="images/card11-4.jpg" class="slide11 slide-44" alt="" />
+            <div class="btn">
+              <button onclick="slide41()"></button>
+              <button onclick="slide42()"></button>
+              <button onclick="slide43()"></button>
+              <button onclick="slide44()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 2 BHK, 10000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span> 888 Mountain Trail
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 23,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5212547
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Escape to the mountains in this cozy cabin, surrounded by nature
+              and hiking trails.
+            </p>
+          </div>
+        </div>
+        <div class="ad-card ad-card-12">
+          <h4>Urban Loft in Converted Warehouse</h4>
+          <div class="img-slider">
+            <img src="images/card12-1.jpeg" class="slide12 slide-45" alt="" />
+            <img src="images/card12-2.jpeg" class="slide12 slide-46" alt="" />
+            <img src="images/card12-3.jpg" class="slide12 slide-47" alt="" />
+            <img src="images/card12-4.jpg" class="slide12 slide-48" alt="" />
+            <div class="btn">
+              <button onclick="slide45()"></button>
+              <button onclick="slide46()"></button>
+              <button onclick="slide47()"></button>
+              <button onclick="slide48()"></button>
+            </div>
+          </div>
+          <div class="specification-flex">
+            <div>
+              <p>
+                <span><i class="bi bi-houses"></i></span> 1 BHK, 6000 sqft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-geo-alt"></i></span>999 Warehouse Loft
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-tags"></i></span> 26,000/-
+              </p>
+            </div>
+            <div>
+              <p>
+                <span><i class="bi bi-telephone"></i></span> +1 (789) 5215689
+              </p>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Industrial chic loft in a converted warehouse, featuring exposed
+              brick, high ceilings and trendy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Link -->
+    <script src="script.js"></script>
+    <!-- End Script Link -->
+  </body>
+</html>
